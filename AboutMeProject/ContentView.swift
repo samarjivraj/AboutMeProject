@@ -47,7 +47,6 @@ struct ContentView: View {
                         .multilineTextAlignment(.center)
                         //.lineLimit(nil)
                         .lineLimit(0)
-                        .padding(.bottom)
                     Text("fun fact!")
                         .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                         .foregroundColor(/*@START_MENU_TOKEN@*/Color("offWhite")/*@END_MENU_TOKEN@*/)
